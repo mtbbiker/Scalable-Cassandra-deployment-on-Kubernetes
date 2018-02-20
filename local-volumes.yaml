@@ -6,6 +6,7 @@ metadata:
   labels:
     type: local
     app: cassandra
+  namespace: cassandra
 spec:
   capacity:
     storage: 1Gi
@@ -22,6 +23,7 @@ metadata:
   labels:
     type: local
     app: cassandra
+  namespace: cassandra
 spec:
   capacity:
     storage: 1Gi
@@ -38,6 +40,7 @@ metadata:
   labels:
     type: local
     app: cassandra
+  namespace: cassandra
 spec:
   capacity:
     storage: 1Gi
